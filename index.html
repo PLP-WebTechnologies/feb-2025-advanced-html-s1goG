@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Coding</title>
+</head>
+<body>
+
+    <!-- Header section -->
+    <header style="text-align: center;">
+        <h1>YOUR CODING GUIDE</h1>
+        <h4><em>Master the art of coding, one step at a time </em></h4>
+        <hr>
+    </header>
+    
+
+    <!-- Navigation section -->
+    <nav>
+        <h2>Important Links</h2>
+        <ul>
+            <li><a href="/about"> ABOUT</a></li>
+            <li><a href="/services"> SERVICES</a></li>
+            <li><a href="/contact"> CONTACT</a></li>
+        </ul>
+        <hr>
+    </nav>
+
+    <!-- Article section -->
+    <article>
+        <h2>JUST KEEP GOING!</h2>
+        <p>Programming can be challenging, but with every line of code you get closer to being a master. Keep pushing forward!</p>
+        
+        <h3>Important Tips for Success:</h3>
+        <ol type="I">  <!-- Roman numerals buletting-->
+            <li>Practice daily, even if it's just 30 minutes.</li>
+            <li>Break big problems into smaller, manageable tasks.</li>
+            <li>Read and understand the code before running it.</li>
+            <li>Ask for help and collaborate with other coders.</li>
+        </ol>
+
+        <!-- External Image from pexels.com -->
+        <h3>Stay motivated!</h3>
+        <p>Keep pushing forward and enjoy the process.</p>
+        <img src="https://images.pexels.com/photos/1181672/pexels-photo-1181672.jpeg" alt="Motivational coding image" width="500">
+    </article>
+
+    <hr>
+
+    <!-- Motivational video and audio section -->
+    <section>
+        <h2>Watch, listen and stay inspired</h2>
+
+        <!-- Video -->
+        <h3>Motivational Coding Video</h3>
+        <video width="600" controls>
+            <source src="videos/motivation.mp4" type="video/mp4">
+        </video>
+
+        <!-- Audio -->
+        <h3>Listen to a Coding Podcast</h3>
+        <audio controls>
+            <source src="audio/coding-podcast.mp3" type="audio/mp3">
+        </audio>
+    </section>
+
+    <hr>
+
+    <!-- Contacts table -->
+    <section>
+        <h2>Our Contacts</h2>
+        <table border="1" cellpadding="5" cellspacing="0">
+            <tr>
+                <th>Name</th>
+                <th>Address</th>
+                <th>Mobile</th>
+                <th>Email</th>
+            </tr>
+            <tr>
+                <td>Milka Andrew</td>
+                <td>P.O.BOX 1-0001</td>
+                <td>+1234567890</td>
+                <td>milka@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Jane Nyakinda</td>
+                <td>P.O.BOX 3-0002</td>
+                <td>+1987654321</td>
+                <td>jane@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Joseph Machogu</td>
+                <td>P.O.BOX 2-0003</td>
+                <td>+1122334455</td>
+                <td>joseph@yaho0.com</td>
+            </tr>
+            <tr>
+                <td>Caroline Kangie</td>
+                <td>P.O.BOX 4- 0004</td>
+                <td>+1555666777</td>
+                <td>caroline@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Joshua Delight</td>
+                <td>P.O.BOX 5-0005</td>
+                <td>+1666777888</td>
+                <td>joshua@yahoo.com</td>
+            </tr>
+        </table>
+    </section>
+
+    <hr>
+
+    <!-- Registration form -->
+    <section>
+        <h2>Register Here</h2>
+        <form >
+            <!-- Name field -->
+            <label for="name">Full Name:</label><br>
+            <input type="text" id="name" name="name" placeholder="Enter your full name" required><br><br>
+
+            <!-- Password field -->
+            <label for="password">Password:</label><br>
+            <input type="password" id="password" name="password" placeholder="Enter password" required minlength="6"><br><br>
+
+            <!-- Email field -->
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+
+            <!-- Date field -->
+            <label for="dob">Date of Birth:</label><br>
+            <input type="date" id="dob" name="dob" required><br><br>
+
+            <!-- Gender selection -->
+            <label>Gender:</label><br>
+            <input type="radio" id="male" name="gender" value="Male" required>
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="Female" required>
+            <label for="female">Female</label>
+            <input type="radio" id="other" name="gender" value="Other" required>
+            <label for="other">Other</label><br><br>
+
+            <!-- Programming language selection section -->
+            <label for="language">Favorite Programming Language:</label><br>
+            <select id="language" name="language" required>
+                <option value="">Select one</option>
+                <option value="Python">Python</option>
+                <option value="JavaScript">JavaScript</option>
+                <option value="Java">Java</option>
+                <option value="C++">C++</option>
+            </select><br><br>
+
+            <!-- Interests checkbox selection section -->
+            <label>Interests:</label><br>
+            <input type="checkbox" id="web" name="interest" value="Web Development">
+            <label for="web">Web Development</label><br>
+
+            <input type="checkbox" id="data" name="interest" value="Data Science">
+            <label for="data">Data Science</label><br>
+
+            <input type="checkbox" id="ai" name="interest" value="AI & ML">
+            <label for="ai">AI & Machine Learning</label><br><br>
+
+            <!-- Submit button -->
+            <button type="submit">Register</button>
+        </form>
+    </section>
+
+    <hr>
+
+    <!-- Footer section -->
+    <footer>
+        <p>&copy; 2025 Happy Coding | Keep Learning & Keep Building!</p>
+    </footer>
+
+</body>
+</html>
